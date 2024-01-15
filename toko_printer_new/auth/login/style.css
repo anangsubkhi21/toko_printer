@@ -1,0 +1,26 @@
+body{
+    background-image: url(pict.jpg);
+}
+
+.kotak-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    box-shadow: 0 4px 8px 0 yellow, 0 6px 20px 0 red;
+}
+
+.kotak-login input{
+    border: 2px solid #181818;
+    border-radius: 4px;
+    width: 250px;
+    padding: 5px 8px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+
